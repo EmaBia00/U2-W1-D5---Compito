@@ -26,9 +26,11 @@ body {
 }
 
 /* NAV*/
-header nav {
+nav {
     border-bottom: 1px solid black;
     background-color: #ffc017;
+    top: 0;
+    position: sticky;
 }
 
 .navbar {
@@ -59,7 +61,7 @@ header nav {
     color: red;
 }
 
-.navigation button {
+.navButton {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -277,7 +279,7 @@ main {
 }
 
 .discover-container {
-    top: 0;
+    top: 86px;
     position: sticky;
     display: flex;
     align-self: flex-start;
