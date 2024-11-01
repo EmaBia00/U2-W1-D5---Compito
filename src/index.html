@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100..900&family=Spectral:wght@200;300;400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Spectral:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -49,9 +49,11 @@
         </div>
     </header>
 
-    <main class="distance-Page">
-        <!-- Trending Container-->
-        <section class="trending-container">
+
+    <!-- Trending Container-->
+
+    <section class="trending-container-block">
+        <div class="trending-container distance-Page">
             <!-- Trending -->
             <div class="trending-medium">
                 <img src="./assets/imgs/svg/trending.svg" alt="trending">
@@ -61,8 +63,9 @@
             <div class="trending-cards">
                 <div class="trending-card">
                     <h4>01</h4>
-                    <div class="trending-card-content">
-                        <p><img src="./assets/imgs/image01.jpeg" alt="image01"> Tom Cooper</p>
+                    <div class="trending-card-content borderCircle">
+                        <p><img src="./assets/imgs/image01.jpeg" alt="image01"> Tom Cooper
+                        </p>
                         <h3>Ukraine War, 23 October 2022</h3>
                         <h4>Oct 23 · 5 min read</h4>
                     </div>
@@ -70,7 +73,8 @@
                 <div class="trending-card">
                     <h4>02</h4>
                     <div class="trending-card-content">
-                        <p><img src="./assets/imgs/image02.png" alt="image02"> Arthur Hayes in Entrepreneur's Handbook
+                        <p><img src="./assets/imgs/image02.png" alt="image02"> Arthur Hayes in Entrepreneur's
+                            Handbook
                         </p>
                         <h3>Comeback</h3>
                         <h4>Oct 26 · 24 min read</h4>
@@ -87,7 +91,7 @@
                 <div class="trending-card">
                     <h4>04</h4>
                     <div class="trending-card-content">
-                        <p><img src="./assets/imgs/image04.png" alt="image04"> Frank Mastropolo in The Riffk</p>
+                        <p><img src="./assets/imgs/image04.png" alt="image04"> Frank Mastropolo in The Riff</p>
                         <h3>The Night Paul McCartney Donned a Disguise at Fillmore East</h3>
                         <h4>Oct 22 · 3 min read <span><img src="./assets/imgs/svg/star.svg" alt="star"></span></h4>
                     </div>
@@ -95,7 +99,8 @@
                 <div class="trending-card">
                     <h4>05</h4>
                     <div class="trending-card-content">
-                        <p><img src="./assets/imgs/image05.jpeg" alt="image05"> Frank Andrade in Towards Data Science
+                        <p><img src="./assets/imgs/image05.jpeg" alt="image05"> Frank Andrade in Towards Data
+                            Science
                         </p>
                         <h3>5 Python Projects to Automate Your Life: From Beginner to Advanced</h3>
                         <h4>Oct 13 · 6 min read <span><img src="./assets/imgs/svg/star.svg" alt="star"></span></h4>
@@ -112,8 +117,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </div>
+    </section>
+    <main class="distance-Page">
         <!-- Articles -->
         <article class="articles-containers">
             <div class="article">
@@ -125,8 +131,8 @@
                         well
                         we age</h4>
                     <div class="article-p">
-                        <p>Oct 27 · 5 min read · <i>Aging</i><span><img src="./assets/imgs/svg/star.svg"
-                                    alt="star"></span><span class="bookmark"><img src="./assets/imgs/svg/bookmark.svg"
+                        <p>Oct 27 · 5 min read · <i>Aging</i><span class="star"><img src="./assets/imgs/svg/star.svg"
+                                    alt="star"></span><span><img src="./assets/imgs/svg/bookmark.svg"
                                     alt="bookmark"></span></p>
                     </div>
                 </div>
@@ -138,8 +144,8 @@
                     <h3>Is Taylor Swift Allowed to Speak About Fat?</h3>
                     <h4>Can you speak about your trauma if you don't look traumatized?</h4>
                     <div class="article-p">
-                        <p>Oct 24 · 6 min read · <i>Health</i><span><img src="./assets/imgs/svg/star.svg"
-                                    alt="star"></span><span class="bookmark"><img src="./assets/imgs/svg/bookmark.svg"
+                        <p>Oct 24 · 6 min read · <i>Health</i><span class="star"><img src="./assets/imgs/svg/star.svg"
+                                    alt="star"></span><span><img src="./assets/imgs/svg/bookmark.svg"
                                     alt="bookmark"></span></p>
                     </div>
                 </div>
@@ -153,9 +159,9 @@
                         liability.
                     </h4>
                     <div class="article-p">
-                        <p>Oct 15 · 5 min read · <i>Software Engineering</i><span><img src="./assets/imgs/svg/star.svg"
-                                    alt="star"></span><span class="bookmark"><img src="./assets/imgs/svg/bookmark.svg"
-                                    alt="bookmark"></span></p>
+                        <p>Oct 15 · 5 min read · <i>Software Engineering</i><span class="star"><img
+                                    src="./assets/imgs/svg/star.svg" alt="star"></span><span><img
+                                    src="./assets/imgs/svg/bookmark.svg" alt="bookmark"></span></p>
                     </div>
                 </div>
                 <img src="./assets/imgs/image12.png" alt="image12">
@@ -166,7 +172,7 @@
                     <h3>Leave No Trace</h3>
                     <h4>How product designers can break from the status quo and help our planet</h4>
                     <div class="article-p">
-                        <p>Oct 25 · 11 min read · <i>Sustainability</i><span class="bookmark"><img
+                        <p>Oct 25 · 11 min read · <i class="star">Sustainability</i><span><img
                                     src="./assets/imgs/svg/bookmark.svg" alt="bookmark"></span></p>
                     </div>
                 </div>
@@ -180,8 +186,8 @@
                         the
                         man who has practiced one kick 10,000...</h4>
                     <div class="article-p">
-                        <p>Oct 26 · 7 min read · <i>Learning</i><span><img src="./assets/imgs/svg/star.svg"
-                                    alt="star"></span><span class="bookmark"><img src="./assets/imgs/svg/bookmark.svg"
+                        <p>Oct 26 · 7 min read · <i>Learning</i><span class="star"><img src="./assets/imgs/svg/star.svg"
+                                    alt="star"></span><span><img src="./assets/imgs/svg/bookmark.svg"
                                     alt="bookmark"></span></p>
                     </div>
                 </div>
@@ -193,9 +199,9 @@
                     <h3>What I Overheard as an Escape Room Actor</h3>
                     <h4>Lock a group of people in a room and you'll witness some surprising confessions</h4>
                     <div class="article-p">
-                        <p>Jan 18, 2020 · 6 min read · <i>Experiences</i><span><img src="./assets/imgs/svg/star.svg"
-                                    alt="star"></span><span class="bookmark"><img src="./assets/imgs/svg/bookmark.svg"
-                                    alt="bookmark"></span></p>
+                        <p>Jan 18, 2020 · 6 min read · <i>Experiences</i><span class="star"><img
+                                    src="./assets/imgs/svg/star.svg" alt="star"></span><span><img
+                                    src="./assets/imgs/svg/bookmark.svg" alt="bookmark"></span></p>
                     </div>
                 </div>
                 <img src="./assets/imgs/image18.jpeg" alt="image18">
@@ -207,7 +213,7 @@
                     <h4>With more people working in remote and hybrid environments than ever before, company, team and
                         individual goals must be explicit and…</h4>
                     <div class="article-p">
-                        <p>Oct 25 · 10 min read · <i>Productivity</i><span class="bookmark"><img
+                        <p>Oct 25 · 10 min read · <i class="star">Productivity</i><span><img
                                     src="./assets/imgs/svg/bookmark.svg" alt="bookmark"></span></p>
                     </div>
                 </div>
@@ -220,14 +226,14 @@
             <h3>DISCOVER MORE OF WHAT METTERS TO YOU</h3>
             <ul class="more-info">
                 <li>Programming</li>
-                <li>DataScience</li>
+                <li>Data Science</li>
                 <li>Technology</li>
-                <li>Self Imlirovement</li>
+                <li>Self Improvement</li>
                 <li>Writing</li>
-                <li>Relationshilis</li>
+                <li>Relationships</li>
                 <li>Machine Learning</li>
-                <li>liroductivity</li>
-                <li>liolitics</li>
+                <li>Productivity</li>
+                <li>Politics</li>
             </ul>
             </hr>
             <!-- LINKS -->
