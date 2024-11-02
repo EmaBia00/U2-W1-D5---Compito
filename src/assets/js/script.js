@@ -14,3 +14,20 @@ window.onscroll = () => {
     navButton.style.backgroundColor = "#191919";
   }
 };
+
+const svgGPath = document.querySelectorAll(".svgM g path");
+
+function randomizeText() {
+  const arr = [];
+  for (let i = 0; i < 10; i++) {
+    arr.push(Math.ceil(Math.random() * 274));
+  }
+
+  for (let i = 0; i < svgGPath.length; i++) {
+    arr.forEach((n) => {
+      svgGPath[n].setAttribute("opacity", Math.floor(Math.random() * 2));
+    });
+  }
+}
+
+setInterval(randomizeText, 300);
